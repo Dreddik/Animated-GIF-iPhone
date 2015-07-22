@@ -3,6 +3,7 @@
 //
 //  Created by Roman Truba on 07.04.14.
 //  Copyright (c) 2014 VK.com
+//  Librarified by Christian Tietze, 2015-07-22
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of
 //  this software and associated documentation files (the "Software"), to deal in
@@ -22,7 +23,8 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "AnimatedGif.h"
+#import "AnimatedGifImpl.h"
+
 @interface UIImageView (AnimatedGif)
 @property (nonatomic, strong) AnimatedGif *animatedGif;
 -(void) setAnimatedGif:(AnimatedGif *)animatedGif startImmediately:(BOOL)start;
