@@ -362,7 +362,11 @@ static CGContextRef CreateARGBBitmapContext(CGSize size)
                 
                 if ([self endOfGifReached:1]) {
                     if ([self.delegate respondsToSelector:@selector(animationWillRepeat:)]) {
-                        [self.delegate performSelector:@selector(animationWillRepeat:) withObject:self];
+                        // Dispatch on main queue to avoid view problems because
+                        // the result will likely be a UI related update.
+                        dispatch_async(dispatch_get_main_queue(), ^{
+                            [self.delegate performSelector:@selector(animationWillRepeat:) withObject:self];
+                        });
                     }
                 }
                 
