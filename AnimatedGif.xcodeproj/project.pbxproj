@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5050E9E61B5FF309004DFE4F /* AnimatedGifImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5050E9E41B5FF309004DFE4F /* AnimatedGifImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5050E9E71B5FF309004DFE4F /* AnimatedGifImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5050E9E51B5FF309004DFE4F /* AnimatedGifImpl.m */; };
 		50BCBE391B2B37D900A9C4F1 /* AnimatedGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BCBE381B2B37D900A9C4F1 /* AnimatedGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50BCBE3F1B2B37D900A9C4F1 /* AnimatedGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BCBE331B2B37D900A9C4F1 /* AnimatedGif.framework */; };
 		50BCBE461B2B37D900A9C4F1 /* AnimatedGifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCBE451B2B37D900A9C4F1 /* AnimatedGifTests.m */; };
-		50BCBE5B1B2B37EE00A9C4F1 /* AnimatedGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCBE581B2B37EE00A9C4F1 /* AnimatedGif.m */; };
-		50BCBE5C1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BCBE591B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.h */; };
+		50BCBE5C1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BCBE591B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50BCBE5D1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCBE5A1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.m */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5050E9E41B5FF309004DFE4F /* AnimatedGifImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedGifImpl.h; sourceTree = "<group>"; };
+		5050E9E51B5FF309004DFE4F /* AnimatedGifImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedGifImpl.m; sourceTree = "<group>"; };
 		50BCBE331B2B37D900A9C4F1 /* AnimatedGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimatedGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BCBE371B2B37D900A9C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50BCBE381B2B37D900A9C4F1 /* AnimatedGif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedGif.h; sourceTree = "<group>"; };
 		50BCBE3E1B2B37D900A9C4F1 /* AnimatedGifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedGifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BCBE441B2B37D900A9C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50BCBE451B2B37D900A9C4F1 /* AnimatedGifTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedGifTests.m; sourceTree = "<group>"; };
-		50BCBE581B2B37EE00A9C4F1 /* AnimatedGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedGif.m; sourceTree = "<group>"; };
 		50BCBE591B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AnimatedGif.h"; sourceTree = "<group>"; };
 		50BCBE5A1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AnimatedGif.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				50BCBE381B2B37D900A9C4F1 /* AnimatedGif.h */,
-				50BCBE581B2B37EE00A9C4F1 /* AnimatedGif.m */,
+				5050E9E41B5FF309004DFE4F /* AnimatedGifImpl.h */,
+				5050E9E51B5FF309004DFE4F /* AnimatedGifImpl.m */,
 				50BCBE591B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.h */,
 				50BCBE5A1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.m */,
 				50BCBE361B2B37D900A9C4F1 /* Supporting Files */,
@@ -118,6 +121,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5050E9E61B5FF309004DFE4F /* AnimatedGifImpl.h in Headers */,
 				50BCBE391B2B37D900A9C4F1 /* AnimatedGif.h in Headers */,
 				50BCBE5C1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.h in Headers */,
 			);
@@ -219,8 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5050E9E71B5FF309004DFE4F /* AnimatedGifImpl.m in Sources */,
 				50BCBE5D1B2B37EE00A9C4F1 /* UIImageView+AnimatedGif.m in Sources */,
-				50BCBE5B1B2B37EE00A9C4F1 /* AnimatedGif.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

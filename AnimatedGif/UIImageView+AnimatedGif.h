@@ -22,7 +22,8 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "AnimatedGif.h"
+#import "AnimatedGifImpl.h"
+
 @interface UIImageView (AnimatedGif)
 @property (nonatomic, strong) AnimatedGif *animatedGif;
 -(void) setAnimatedGif:(AnimatedGif *)animatedGif startImmediately:(BOOL)start;
